@@ -1,5 +1,5 @@
 # 🧙‍♂️ web_page
-주제(해리포터)에 대한 소개 웹 페이지 제작 (2018)
+html, css를 이용하여 소개(해리포터) 웹 페이지 제작 (2018)
 <br><br>
 
 ## Reason for choosing a topic
