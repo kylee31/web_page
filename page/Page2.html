@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Harry Potter</title>
+    <style>
+        body{
+            background-color:rgb(96, 138, 186);
+        }
+        #menu{
+            background:gray;
+        }
+        #menu ul{
+            margin:0; padding:0;width:248px;
+        }
+        #menu ul li {
+            display: inline-block;
+            list-style-type: none;
+            padding: 7px 0px;
+        }
+        #menu ul li a{
+            color : #fff000; text-decoration:none;
+        }
+        table{
+            border-collapse:collapse;
+            font:normal small-caps 900 18px serif;
+            background:#8f8f8f;
+            text-align:center;
+        }
+        tr.first>td{
+            border-right:2px solid #454545;
+            border-left:2px solid #454545;
+            height:30px;
+            width:250px;
+        }
+        tr.second>td{
+            border-right:2px solid #454545;
+            border-left:2px solid #454545;
+            border-top:2px dotted #454545;
+            width:250px;
+        }
+        td:hover{
+            background:rgb(11, 73, 136);
+        }
+        #one{background:url("./../media/img/author.png") center/210px 210px no-repeat;}
+        #one:hover{background:#8f8f8f url("./../media/img/1.png") center/210px 210px no-repeat;}
+        #two{ background:url("./../media/img/bookmovie.png") center/210px 210px no-repeat; }
+        #two:hover{ background:#8f8f8f url("./../media/img/2.png") center/210px 210px no-repeat; }
+        #three{background:url("./../media/img/three.png") center/210px 210px no-repeat;}
+        #three:hover{background:#8f8f8f url("./../media/img/3.png") center/210px 210px no-repeat;}
+        #four{background:url("./../media/img/rogo.png") center/210px 210px no-repeat;}
+        #four:hover{background:#8f8f8f url("./../media/img/4.png") center/210px 210px no-repeat;}
+        #five{background:url("./../media/img/castle.png") center/210px 210px no-repeat;}
+        #five:hover{background:#8f8f8f url("./../media/img/5.png") center/210px 210px no-repeat;}
+        footer{
+            text-align:center;
+            font:100 12px arial;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <audio src="./../media/music/harrypotter.mp3" controls autoplay loop></audio>
+        <img src="./../media/img/title.jpg" width="1265" height="210" alt="harry potter" />
+        <hr />
+    </header>
+    <nav id="menu">
+        <table>
+            <tr class="first">
+                <td><ul><li><a href="Page3.html" target="_blank">Author</a></li></ul></td>
+                <td><ul><li><a href="Page4.html" target="_blank">Book & Movie</a></li></ul></td>
+                <td><ul><li><a href="Page5.html" target="_blank">Characters</a></li></ul></td>
+                <td><ul><li><a href="Page6.html" target="_blank">Dormitory</a></li></ul></td>
+                <td><ul><li><a href="Page7.html" target="_blank">Goods & Universal Studio</a></li></ul></td>
+            </tr>
+        </table>
+    </nav>
+    <sextion>
+        <table>
+            <tbody>
+                <tr class="second">
+                    <td id="one"><img src="./../media/img/none.png" width="210" height="210" /></td>
+                    <td id="two"><img src="./../media/img/none.png" width="210" height="210" /></td>
+                    <td id="three"><img src="./../media/img/none.png" width="210" height="210" /></td>
+                    <td id="four"><img src="./../media/img/none.png" width="210" height="210" /></td>
+                    <td id="five"><img src="./../media/img/none.png" width="210" height="210" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </sextion>
+    <footer><br /><br />20181024-20181207 &copy;Lee Kyung Yeon &trade;LKY &reg;Harry Potter</footer>
+</body>
+</html>

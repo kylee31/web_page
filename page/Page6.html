@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Dormitory</title>
+    <style>
+        body {
+            background-color:#83a7d0;
+        }
+        box{
+            display:inline-block;
+        }
+        table{
+            display: inline-block;
+            width:600px;
+            height:275px;
+            text-align:center;
+        }
+        td#t{
+            border:1px solid black;
+            width:550px;
+            background-color:white;
+        }
+        img#i{
+            width:62px;
+            height:62px;
+        }
+        h3{
+            font:bold small-caps 25px arial;
+            margin:20px 175px;
+            color:yellow;
+        }
+        iframe{
+            border:3px solid black;
+            background-image:url("./../media/img/hog_dom.jpg");
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>Hogwarts Dormitory</h3>
+    </header>
+    <section>
+        <box>
+            <img src="./../media/img/hogwarts.png" width="600" height="240" /><br />
+            <table>
+                <tr>
+                    <td><a href="Page8.html" target="left"><img id="i" src="./../media/img/Gry.jpg" /></a></td>
+                    <td id="t">그리핀도르(Gryffindor)-용감하고 대담한 자를 위한 기숙사</td>
+                </tr>
+                <tr>
+                    <td><a href="Page9.html" target="left"><img id="i" src="./../media/img/Huf.jpg" /></a></td>
+                    <td id="t">후플푸프(Hufflepuff)-정의롭고 진실한 자를 위한 기숙사</td>
+                </tr>
+                <tr>
+                    <td><a href="Page10.html" target="left"><img id="i" src="./../media/img/Rav.jpg" /></a></td>
+                    <td id="t">레번클로(Ravenclaw)-현명하고 사려깊은 자를 위한 기숙사</td>
+                </tr>
+                <tr>
+                    <td><a href="Page11.html" target="left"><img id="i" src="./../media/img/Sly.jpg" /></a></td>
+                    <td id="t">슬리데린(Slytherin)-재간꾼들을 위한 기숙사</td>
+                </tr>
+            </table>
+        </box>
+        <iframe srcdoc="&rArr; 확인하고 싶은 기숙사 이미지(왼쪽 하단에 위치)를 클릭하세요." name="left" width="635" height="500"></iframe>
+    </section>
+</body>
+</html>

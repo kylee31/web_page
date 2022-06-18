@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Book & Movie</title>
+    <style>
+        body {
+            background-color:#83a7d0;
+        }
+        box{
+            display:inline-block;
+        }
+        fieldset.fir{
+            height:135px;
+            border:3px solid black;
+            padding-top:0em;
+        }
+        fieldset.sec{
+            height:265px;
+            border:3px solid black;
+            padding-top:0px;
+        }
+        legend{
+            font:bold 20px arial;
+        }
+        ul{
+            margin:0px;
+            display:inline-block;
+        }
+        iframe#price1{
+            height:95px;
+            width:500px;
+            margin-left:500px;
+            border:3px dotted navy;
+            background-color:rgb(96, 138, 186);
+        }
+         iframe#price2{
+            height:190px;
+            width:500px;
+            margin-left:450px;
+            border:3px dotted navy;
+            background-color:rgb(96, 138, 186);
+        }
+         h2{
+             text-shadow:0px 0px 3px navy;
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>소설, DVD 구매처</h2>
+    </header>
+    <hr />
+    <nav>
+        소설 구매 사이트 검색처 연결 기준 : <mark>국내소설</mark><br />
+        DVD 구매 사이트 검색처 연결 기준 : <mark>DVD</mark><br /><br />
+    </nav>
+    <section>
+        <form>
+            <fieldset class="fir">
+                <legend>소설 구입처 <a href="Page12.html" target="price1"><img title="사이트별 가격비교" src="./../media/img/information.png" width="20" height="20" /></a></legend>
+                <box>
+                    <ul>
+                        <li>교보문고<a href="http://www.kyobobook.co.kr/search/SearchCommonMain.jsp?vPstrCategory=TOT&vPstrKeyWord=%26%2354644%3B%26%2347532%3B%26%2354252%3B%26%2353552%3B&vPplace=top"> 바로가기</a></li>
+                        <li>알라딘<a href="https://www.aladin.co.kr/search/wsearchresult.aspx?SearchTarget=Book&KeyWord=%C7%D8%B8%AE%C6%F7%C5%CD&KeyRecentPublish=0&OutStock=0&ViewType=Detail&CustReviewCount=0&CustReviewRank=0&KeyFullWord=%C7%D8%B8%AE%C6%F7%C5%CD&KeyLastWord=%C7%D8%B8%AE%C6%F7%C5%CD&CategorySearch=&chkKeyTitle=&chkKeyAuthor=&chkKeyPublisher=&chkKeyISBN=&chkKeyTag=&chkKeyTOC=&chkKeySubject="> 바로가기</a></li>
+                        <li>인터파크<a href="http://bsearch.interpark.com/dsearch/book.jsp?sch=all&sc.shopNo=&bookblockname=s_main&booklinkname=s_main&bid1=search_auto&bid2=product&bid3=000&bid4=001&cs=book&query=%C7%D8%B8%AE%C6%F7%C5%CD"> 바로가기</a></li>
+                        <li>yes24<a href="http://www.yes24.com/searchcorner/Search?keywordAd=&keyword=&domain=BOOK&qdomain=%B1%B9%B3%BB%B5%B5%BC%AD&query=%C7%D8%B8%AE%C6%F7%C5%CD"> 바로가기</a></li>
+                    </ul>
+                </box>
+                <box>
+                    <iframe id="price1" name="price1" srcdoc="<html><body>사이트별 가격 정보를 알고 싶다면 물음표를 클릭하세요!<body></html>"></iframe>
+                </box>
+            </fieldset>
+        </form>
+    </section>
+    <br />
+    <section>
+        <form>
+            <fieldset class="sec">
+                <legend>영화 구입처 <a href="Page13.html" target="price2"><img title="사이트별 가격비교" src="./../media/img/information.png" width="20" height="20" /></a></legend>
+                <box>
+                    <ol><li>파일 구매<br /></li></ol>
+                    <ul>
+                        <li>네이버 n스토어 <a href="https://nstore.naver.com/search/search.nhn?t=movie&q=%ED%95%B4%EB%A6%AC%ED%8F%AC%ED%84%B0">바로가기</a></li>
+                        <li>POOQ <a href="https://www.pooq.co.kr/search/search.html?category=movie&searchWord=%ED%95%B4%EB%A6%AC%ED%8F%AC%ED%84%B0">바로가기</a></li>
+                    </ul>
+                    <ol start="2"><li>DVD 구매</li></ol>
+                    <ul>
+                        <li>교보문고 <a href="http://www.kyobobook.co.kr/search/SearchDvdMain.jsp?vPstrCategory=DVD&vPstrKeyWord=%26%2354644%3B%26%2347532%3B%26%2354252%3B%26%2353552%3B&vPplace=top">바로가기</a></li>
+                        <li>알라딘 <a href="http://bsearch.interpark.com/dsearch/book.jsp?sch=all&query=%C7%D8%B8%AE%C6%F7%C5%CD+dvd&bid1=search_auto&bid2=product&bid3=000&bid4=001">바로가기</a></li>
+                        <li>인터파크 <a href="http://bsearch.interpark.com/dsearch/book.jsp?sch=all&query=%C7%D8%B8%AE%C6%F7%C5%CD+dvd&bid1=search_auto&bid2=product&bid3=000&bid4=001">바로가기</a></li>
+                        <li>yes24 <a href="http://www.yes24.com/searchcorner/Search?keywordAd=&keyword=&domain=DVD&qdomain=DVD%2FBD&query=%C7%D8%B8%AE%C6%F7%C5%CD">바로가기</a></li>
+                    </ul>
+                </box>
+                <iframe id="price2" name="price2" srcdoc="<html><body>사이트별 가격 정보를 알고 싶다면 물음표를 클릭하세요!<body></html>"></iframe>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
